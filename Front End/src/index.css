@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+
+body{
+    margin: auto;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+section{
+background-image:url("./images/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment:fixed;
+  height: 789px;
+  width: 1600px;
+}
+
+  
+
+.divh{
+    background-image:url("./images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    height: 789px;
+    width: 1600px;
+  }
+
+.divt{
+    background-image:url("./images/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    height: 789px;
+    width: 1600px;
+  }
+
+  .divf{
+    background-image:url("./images/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    height: 789px;
+    width: 1600px;
+  }
+  .divs{
+    background-image:url("./images/bg9.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    height: 789px;
+    width: 1600px;
+  }
+  
+  .big12{
+    color: beige;
+    font-size: 38px;
+    text-align: center;
+    margin-left: 350px;
+    text-shadow: whitesmoke 1.2px 0 5px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+  
+   .big22{
+    color:black;
+    font-size: 24px; 
+    text-align: center;
+    margin-top: 60px;
+    text-shadow: whitesmoke 1.2px 0 5px ;
+    font-family: monospace;
+  }
+  .big32{
+    position:absolute;
+    color: beige;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: whitesmoke 1.2px 0 5px ;
+    font-family:'Courier New', Courier, monospace;
+   }
+  
+  .font1{
+    color:black;
+    font-size:  21px;
+    font-family: cursive; 
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 10px;
+   }
+   .font2{
+    color: cornsilk;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 10px;
+   }
+   .font3{
+    color:black;
+    font-size: 32px; 
+    text-align: center;
+    text-shadow: whitesmoke 1.2px 0 5px ;
+    font-family:'Times New Roman', Times, serif; 
+    text-align: center;
+    line-height: 1.25;
+   }
+   .text1{
+    font-size:large;
+    font-family: cursive; 
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 10px;
+    color: black;
+   }
+
+form {
+    display:block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+    font-family: cursive;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ a:visited {
+    color:crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family:cursive;
+  font-size: 20px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  color:#000;
+}
+
+label,
+button {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
